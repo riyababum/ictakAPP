@@ -1,0 +1,31 @@
+{
+  "name": "id",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shynu-v/id.git"
+  },
+  "author": "shynu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shynu-v/id/issues"
+  },
+  "homepage": "https://github.com/shynu-v/id#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.2",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "pdfmake": "^0.2.4"
+  }
+}
