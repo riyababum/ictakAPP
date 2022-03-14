@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+} 
+.studhome{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #f9fafc;
+    /* linear-gradient(45deg, rgb(148, 7, 184),rgb(51, 126, 211),rgb(13, 58, 88), rgb(118, 10, 151)); */
+    height: 100vh;
+}
+
+.welcome{
+    color: #13253a;
+    text-align: center;
+    background-color: #04d2af; 
+    height:96%;
+    margin-top: 1%;
+    border-radius: 10px;
+    width:84%;
+    margin-left: 15%;
+    box-shadow: 2px 2px 2px black;
+}
+.welcome p{
+    font-weight: bolder;
+    font-size: 25px;
+}
+#stuhomelogo{
+    margin-top: 10%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    max-width:200px;
+    width:40%;
+    height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .welcome p{
+        font-size: 25px;
+        margin-left: 30%;
+    }
+    #stuhomelogo{
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        max-width:400px;
+        width:50%;
+        height: auto;
+        margin-left: 30%;
+        margin-top: 30%;
+    
+    }
+}

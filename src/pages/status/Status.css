@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.status{
+    color: brown;
+    text-align: center;
+} 
+#statustable{
+	color: #13253a;
+    background-color: #04d2af; 
+    position: absolute;
+    top:2%; left:15.5%;
+    border-radius: 10px;
+    height:96%;
+    width:84%;
+}
+#table{
+    border-radius: 10px;
+    position: absolute;
+    top:5%;
+    margin-left: 10%;
+    margin-top: 0;
+    outline: none;
+}
+#tablehead{
+    background-color: #13253a;
+    background: none;
+}
+#tablerow{
+    border-radius: 10px;
+    height: 10%;
+    background-color: white;
+}
+#dbtn{
+    position: absolute;
+    top:50%;
+    left:42%;
+    background-color: #13253a;
+    color: #04d2af;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 2px solid #04d2af;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+}
+#dbtn:hover{
+    background-color: #04d2af;
+    color: #13253a;
+    border: 2px solid #13253a;
+}

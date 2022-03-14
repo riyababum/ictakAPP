@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bmlist{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(90deg, rgb(255, 255, 255),rgb(11, 118, 160),rgb(11, 118, 160), rgb(20, 68, 172));
+    padding-bottom: 14%;
+    height: 100vh;
+}
+
+#bmlistlogo{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    align-items: center;
+}
+
+
+#bmlistlogo{
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        max-width:400px;
+        width:50%;
+        height: auto;
+        margin-left: 30%;
+        margin-top: 30%;
+    
+}   
+
+#bmheading{
+      font-size: 50px;
+      color: aliceblue;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; 
+      border-style: solid;
+      border-top: 1em; 
+      border-right: 1em;
+      border-left: 1em;
+      border-bottom-right-radius: 1em;
+      margin-top: 20px;
+      padding-left: 20px;
+      padding-right: 30px;
+      padding-bottom: 10px;
+      
+}
+
+.table-wrapper {
+    width: 1000px;
+    margin: 10px auto;
+    margin-right: 300px;    
+    padding: 20px;	
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+}
+.table-title h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+}
+.table-title .add-new {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+    margin-top: 120px;
+    margin-right: -150px;
+    margin-bottom: -200px;
+    color: rgb(37, 37, 37);
+    background: #e9e9e9;
+}
+.table-title .add-new i {
+    margin-right: 4px;
+}
+table.table {
+    table-layout: fixed;
+}
+table.table tr th, table.table tr td {
+    border-color: #e9e9e9;
+}
+table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+table.table th:last-child {
+    width: 100px;
+}
+table.table td a {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 24px;
+}    
+table.table td a.add {
+    color: #27C46B;
+}
+table.table td a.edit {
+    color: #FFC107;
+}
+table.table td a.delete {
+    color: #E34724;
+}
+table.table td i {
+    font-size: 19px;
+}
+table.table td a.add i {
+    font-size: 24px;
+    margin-right: -1px;
+    position: relative;
+    top: 3px;
+}    
+table.table .form-control {
+    height: 32px;
+    line-height: 32px;
+    box-shadow: none;
+    border-radius: 2px;
+}
+table.table .form-control.error {
+    border-color: #f50000;
+}
+table.table td .add {
+    display: none;
+}
+
+#subheading{
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: -50px;
+    text-decoration: underline;
+    
+}

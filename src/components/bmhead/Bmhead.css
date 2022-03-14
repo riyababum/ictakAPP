@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0%;
+} 
+
+.bmsidenav {
+  margin-top: 1%;
+  height: 96%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #13253a;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-radius: 10px;
+  }
+  
+  .bmsidenav .link {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #fcfcfc;
+    display: block;
+    text-align: center;
+  }
+  
+  .bmsidenav .link:hover {
+    color: #38c5aa;
+  }
+  .links{
+    padding-top: 30px;
+  }
+ 
+#bmheaderlogo{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  @media screen and (max-height: 450px) {
+    .bmsidenav {padding-top: 15px;}
+    .bmsidenav a {font-size: 18px;}
+  }
+  #bmheaderlogo{
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+    margin-top: 30px;
+   
+  }

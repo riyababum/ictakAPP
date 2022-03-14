@@ -1,0 +1,147 @@
+
+.home{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(90deg, rgb(16, 4, 36), rgb(170, 118, 177));
+   }
+
+.details{
+    position: absolute;
+    top: 80%;
+    width: 40%;
+    margin-left: 10%;
+  }
+  
+.desc{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: aqua;
+  }
+  
+.intro{
+  color: white;
+    margin: 100px 0;
+    font-size: 40px;
+  }
+    
+  @media (max-width: 1600px) {   
+   .details{
+      position: static;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+.desc{
+      padding:0;
+      width: 100%;
+    }
+   
+   
+    .homeButtons{
+       margin-bottom: 100px;
+    } 
+  }
+  
+    
+  .homeBtn{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: #03e8f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-left: 60px; 
+    box-shadow: 20px 20px 20.2px rgba(31, 30, 30, 0.671);
+
+}
+.homeBtn:hover{
+    background: #03e9f4;
+    color: #000000;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+.homeBtn span{
+    position: absolute;
+    display: block;
+}
+.homeBtn span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: animate1 1.2s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+.homeBtn span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    animation: animate2 1.2s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+.homeBtn span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+    animation: animate3 1.2s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+
+.homeBtn span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: animate4 1.2s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
+  

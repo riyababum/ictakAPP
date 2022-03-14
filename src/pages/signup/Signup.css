@@ -1,0 +1,101 @@
+.signup {
+  height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(90deg, rgb(16, 4, 36), rgb(170, 118, 177));
+}
+
+.content {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  height: 580px;
+  width: 430px;
+    text-align: left;
+    background-color: whitesmoke;
+    border-radius: .7em;
+    padding: 0rem 2rem 2rem;
+    box-shadow: 20px 20px 20.2px rgba(31, 30, 30, 0.671);
+
+}
+
+.fld {
+  margin-top: 5%;
+  width: 20em;
+  height: 3rem;
+  border: none;
+  background-color: whitesmoke;
+  font-size: large;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.616);
+}
+
+.fld::placeholder {
+  color: rgba(128, 128, 128, 0.568);
+}
+
+.fld:focus{
+  outline: none;
+  transition: ease 1s;
+  border-bottom-color: black;
+} 
+
+#say-hello {
+  color: rgb(32, 5, 77);
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px black
+}
+/* .companyName,
+.name,
+.password, */
+/* .cpassword,
+.email {
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+.companyName,
+.name,
+.password,
+.cpassword,
+.email, p{
+  margin-bottom: 0px;
+} */
+
+.button {
+  border: none;
+  font-weight: bold;
+  width: 22rem;
+  background-image: linear-gradient(90deg, rgb(170, 118, 177),rgb(16, 4, 36),  rgb(9, 204, 204));
+  border-radius: 2rem;
+  height: 2.5rem;
+  color: whitesmoke;
+ 
+}
+
+.button:hover {
+  transition: ease-in 0.5s;
+  border: 4px solid blueviolet;
+}
+.redirect{
+  padding-top: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 466px) {
+  .fld {
+    width: 15em;
+    height: 3rem;
+  }
+  .button {
+    width: 16rem;
+  }
+.content {
+  padding: 2rem 2rem 2rem;
+ }
+ html{
+  overflow-x:hidden;
+  overflow-y:auto;
+ }
+}
